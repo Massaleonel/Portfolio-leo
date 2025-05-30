@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEONE MASSA Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="..https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">L<span>M</span> BUSNESS</div>
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul id="menu">
+                <li><a href="portfolio.html">Home</a></li>
+                <li><a href="About.html">Apropos</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<section class="hero">
+        <div class="content">
+            <h1>je suis <span>LEONEL MASSA NSANGOLO</span></h1>
+            <h2>Etudiant à l'universié protestante au congo</h2>
+            <p>
+                Je suis leonel,je suis un passionné par la creation des sites web modernes et accessibles à tous.Ce portfolio presentes mes compétences,mes projets,mon parcours et ma passion pour le developpement web.n'hésitez pas à me contacter ou à peut-etre collaborer avec moi
+            </p>
+            <div class="buttons">
+                <a href="#" class="btn">Rejoin Moi</a>
+                <a href="#" class="btn btn-outline">Me contacter</a>
+            </div>
+            <div class="socials">
+                <a href="#"><i class="fab fa-facebook-f">facebook</i></a>
+                <a href="#"><i class="fab fa-github">github</i></a>
+                <a href="#"><i class="fab fa-instagram">instagram</i></a>
+                <a href="#"><i class="fab fa-whatsapp">whatsapp</i></a>
+            </div>
+        </div>
+        <div class="image">
+            <img src="c:\Users\Leone\Pictures\leonel.png.jpg" alt="LEONEL MASSA">
+        </div>
+    </section>
+
+ <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const menu = document.getElementById('menu');
+
+        menuToggle.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
